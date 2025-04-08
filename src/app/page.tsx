@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
         <div className="bg-white p-8 rounded-2xl shadow-xl mx-auto w-fit transform hover:scale-105 transition-transform duration-300">
           <QRCodeSVG 
-            value="/amor"
+            value="https://love-smoky-gamma.vercel.app/amor"
             size={256}
             level="H"
             includeMargin={true}
